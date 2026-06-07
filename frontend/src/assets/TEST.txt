@@ -1,0 +1,2 @@
+This e commerce is a project 
+a new project for learning MERN
