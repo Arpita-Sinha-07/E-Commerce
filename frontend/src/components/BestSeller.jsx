@@ -19,6 +19,7 @@ const BestSeller = () => {
             Eius corporis! Reprehenderit incidunt nam expedita quo,
              quibusdam minus velit tenetur.
             </p>
+            // Made a best Seller section for the best seller products view
 
         </div>      
     </div>
