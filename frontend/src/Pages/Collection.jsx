@@ -1,4 +1,4 @@
-import { useContext, useState, useEffects } from 'react';
+import { useContext, useState, useEffect } from 'react';
 import { ShopContext } from '../context/ShopContext';
 import Title from '../Components/Title'
 import { assets } from '../assets/frontend_assets/assets'
@@ -10,7 +10,7 @@ const Collection = () => {
   const [showFilter, setShowFilter] = useState(false);
   const [filterProducts, setFilterProducts] = useState([]);
 
-  useEffects(()=>{
+  useEffect(()=>{
     setFilterProducts(products);
   },[])
 
@@ -43,8 +43,7 @@ const Collection = () => {
           
 
         </div>
-
-        {/* Type filter */}
+      {/* Type filter */}
 
         <div className={`border border-gray-300 pl-5 py-3 mt-6 ${showFilter ? '' : 'hidden'} sm:block`}>
           <p className='mb-3 text-sm font-medium'>TYPE</p>
@@ -65,12 +64,14 @@ const Collection = () => {
           </div>
         </div> 
       </div>
+
+
       {/* Right Side */}
       <div className='flex-1'>
       <div className='sm:text-3xl text-base flex justify-between mb-4'>
-          <Title text1={'ALL'} text2={' COLLECTIONS'}/>
+          <Title text1={'ALL'} text2={' COLLECTIONS'}/> 
           {/* Product Sort */}
-          <select className='boder-2 border-gray-300 text-sm px-2'>
+          <select className='text-gray-700 boder-2 border-gray-300 text-sm px-2'>
             <option value="relevant">Sort By : Relevant</option>
             <option value="low-high">Sort By : Low to High</option>
             <option value="high-low">Sort By : High to Low</option>
@@ -78,6 +79,7 @@ const Collection = () => {
       </div>
 
       {/* Map Products */}
+
       <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-6'>
         {
           filterProducts.map((item,index)=>(
@@ -85,9 +87,9 @@ const Collection = () => {
           ))
         }
       </div>
-      // collections.........
     </div>
     </div>
+    
 
   )
 }
