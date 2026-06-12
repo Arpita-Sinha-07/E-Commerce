@@ -85,7 +85,7 @@ const Collection = () => {
           ))
         }
       </div>
-  
+      // collections.........
     </div>
     </div>
 
