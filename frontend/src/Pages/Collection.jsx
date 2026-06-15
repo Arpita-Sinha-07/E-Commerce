@@ -104,7 +104,8 @@ const Collection = () => {
       </div>
     </div>
     </div>
-    
+    // collection
+    //page 
 
   )
 }
