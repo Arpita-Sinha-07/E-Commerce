@@ -156,6 +156,7 @@ const Collection = () => {
 
   )
 }
+//collection page is done , products page is in the process of building......
 
 
 export default Collection
