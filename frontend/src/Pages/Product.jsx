@@ -22,7 +22,6 @@ const fetchProductData = async () => {
 
 useEffect(()=>{
   fetchProductData();
-
 }, [productId])
   
 return productData? (
@@ -62,10 +61,6 @@ return productData? (
             </p>
           </div>
         </div>
-
-
-
-
 
 
       </div>      
