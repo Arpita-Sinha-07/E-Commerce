@@ -11,10 +11,10 @@ A full-stack **E-Commerce Web Application** built to provide users with a smooth
 - 🔍 Search and Filter Products
 - 📄 Product Details Page
 - 🛒 Add to Cart / Remove from Cart
-- ❤️ Wishlist Support (if implemented)
+- ❤️ Wishlist Support 
 - 💳 Checkout / Order Placement
 - 📦 Order Management
-- 🧑‍💼 Admin Panel for Product Management (if implemented)
+- 🧑‍💼 Admin Panel for Product Management 
 - 📱 Fully Responsive Design
 
 ---
@@ -37,9 +37,7 @@ A full-stack **E-Commerce Web Application** built to provide users with a smooth
 ### Other Tools / Libraries
 - JWT Authentication
 - Axios
-- Redux / Context API (if used)
-- Cloudinary (if used for image upload)
-- Stripe / Razorpay (if payment integration is added)
+<!-- - Stripe / Razorpay (if payment integration is added) -->
 
 ---
 
